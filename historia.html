@@ -2,7 +2,25 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
-   
+   <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RK98YHM2B"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-5RK98YHM2B');
+	  gtag('config', 'AW-781170400');
+	</script>
+				<!-- Event snippet for Clique no Botão Lojas conversion page --> 
+		<script>
+			window.addEventListener("DOMContentLoaded", function () {
+				document.querySelector("a[href='lojas.html']").addEventListener('click', function () {
+					console.log('click Loja');
+					gtag('event', 'conversion', {'send_to': 'AW-781170400/pgGECJXf9IsYEODtvvQC'}); 
+				})
+			})
+		</script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,7 +37,7 @@
         <header class="header">
             <div class="header__container">
 
-                <a href="assets" class="header__logo"><img id="teste" class="logo-center" src="logo/pemaza.png" alt=""></a>
+                <a href="index.html" class="header__logo"><img id="teste" class="logo-center" src="logo/pemaza.png" alt=""></a>
 
                 <div class="email-title">
                     <h1 id="email" class="email-title">pemaza@pemaza.com.br</h1>
@@ -106,16 +124,12 @@
         <!--========== CONTENTS ==========-->
         <main>
             <section>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
+              <h1 class="historia">História</h1>
             </section>
         </main>
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
-
-
-        
+       
     </body>
 </html>
