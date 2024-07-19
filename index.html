@@ -12,6 +12,8 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/card_index.css">
+        <link rel="stylesheet" href="assets/css/btn_index.css">
+        <link rel="stylesheet" href="assets/css/index.css">
 
         <title>Pemaza</title>
     </head>
@@ -20,12 +22,12 @@
         <header class="header">
             <div class="header__container">
 
-                <a href="assets" class="header__logo"><img id="teste" class="logo-center" src="logo/pemaza.png" alt=""></a>
+                <a href="index.html" class="header__logo"><img id="teste" class="logo-center" src="logo/pemaza.png" alt=""></a>
 
                 <div class="email-title">
                     <h1 id="email" class="email-title">pemaza@pemaza.com.br</h1>
-                    <i class='bx-social bxl-instagram nav__insta'></i>
-                    <i class='bx-social bxl-facebook nav__insta'></i>
+                    <a href="https://www.instagram.com/pemaza_ro/"><i class='bx-social bxl-instagram nav__insta'></i></a>
+                    <a href="https://www.facebook.com/grupopemazarondonia/?locale=pt_BR"><i class='bx-social bxl-facebook nav__insta'></i></a>
                 </div>
                 
                 
@@ -36,7 +38,7 @@
         <div class="nav" id="navbar">
             <nav class="nav__container">
                 <div>
-                    <a href="#" class="nav__link nav__logo">
+                    <a href="index.html" class="nav__link nav__logo">
                         <i class='bx bxs-disc nav__icon' ></i>
                         <span class="nav__logo-name"><img class="side-nav-logo" src="logo/pemaza.png" alt=""></span>
                     </a>
@@ -51,7 +53,7 @@
                             </a>
                             
                             <div class="nav__dropdown">
-                                <a href="lojas.html" class="nav__link">
+                                <a href="#" class="nav__link">
                                     <i class='bx bxs-compass nav__icon' ></i>
                                     <span class="nav__name">Lojas</span>
                                     <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
@@ -59,8 +61,8 @@
 
                                 <div class="nav__dropdown-collapse">
                                     <div class="nav__dropdown-content">
-                                        <a href="#" class="nav__dropdown-item">Acre</a>
-                                        <a href="#" class="nav__dropdown-item">Rôndonia</a>
+                                        <a href="lojaAC.html" class="nav__dropdown-item">Acre</a>
+                                        <a href="lojasRO.html" class="nav__dropdown-item">Rôndonia</a>
                                     </div>
                                 </div>
                             </div>
@@ -118,8 +120,8 @@
                     <input type="radio" name="radio-btn" id="radio2">
                     <input type="radio" name="radio-btn" id="radio3">
                     <input type="radio" name="radio-btn" id="radio4">
-                    <!-- <input type="radio" name="radio-btn" id="radio5">
-                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio5">
+                   <!--  <input type="radio" name="radio-btn" id="radio6">
                     <input type="radio" name="radio-btn" id="radio7">
                     <input type="radio" name="radio-btn" id="radio8">
                     <input type="radio" name="radio-btn" id="radio9">
@@ -128,7 +130,7 @@
                 -->
                     <!--Silde imagens-->
                     <div class="slide first">
-                        <img src="images/slider/n1.jpg" alt="imagem 1">
+                        <img src="images/slider/n6.jpg" alt="imagem 1">
                     </div>
                     <div class="slide second">
                         <img src="images/slider/n2.jpg" alt="imagem 2">
@@ -198,23 +200,24 @@
     <div class="card-list">
             <div class="card_index">
                 <div class="card-img"></div>
-                     <div class="card-info">
-                          <div class="card-text">
+                    <div class="card-info">
+                        <div class="card-text">
                                 <p class="text-title">Conheça Nossas Lojas</p>
-                                <p class="text-subtitle">Loja de Rondônia </p>
-                                <p class="text-subtitle-history"> Saiba onde encontrar a filial mais próxima de você. <br> São mais de 30 lojas espalhadas por Rondônia </pp>
-                          </div>
+                                <p class="text-subtitle-history"> Saiba onde encontrar a filial mais próxima de você. <br> São mais de 40 lojas espalhadas por Rondônia e Acre </pp>
+                         </div>
+                         <div class="frame">
+                            <button class="custom-btn btn-6"><span>Rondônia</span></button>
+                            <button class="custom-btn btn-6"><span>Acre</span></button>
+                         </div>
+                        </div>
                     </div>
-             </div>
-
-             <div class="card_index">
+                <div class="card_index">
                 <div class="card-img"></div>
-                     <div class="card-info">
-                          <div class="card-text">
-                                <p class="text-title">Conheça Nossas Lojas</p>
-                                <p class="text-subtitle">Loja de Acre </p>
-                                <p class="text-subtitle-history"> Saiba onde encontrar a filial mais próxima de você. <br> São mais de 5 lojas espalhadas pelo Acre </pp>
-                          </div>
+                        <div class="card-info">
+                        <div class="card-text">
+                                <p class="text-title">Pagamento Facilitado</p>
+                                <p class="text-subtitle-history"> Parcele suas compras em até 12 vezes com os cartões <br>Visa, MasterCard, Diners Club, American Express e Elo.<br><br>Aceitamos também cartão BNDES para compras<br> em até 48 vezes. </pp>
+                           </div>
                     </div>
              </div>
 
@@ -223,10 +226,12 @@
                      <div class="card-info">
                           <div class="card-text">
                                 <p class="text-title">Serviços Prestados</p>
-                                <p class="text-subtitle">Loja de Acre </p>
                                 <p class="text-subtitle-history"> Saiba onde encontrar a filial mais próxima de você. <br> São mais de 5 lojas espalhadas pelo Acre </pp>
                           </div>
-                    </div>
+                          <div class="frame">
+                            <button class="custom-btn btn-6"><span>Serviços</span></button>
+                         </div>
+                        </div>
              </div>
 
     </div>
