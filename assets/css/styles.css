@@ -391,7 +391,7 @@ img {
 }
 
 .manual-btn {
-  border: 2px solid white;
+  border: 2px solid rgb(12, 12, 12);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -402,7 +402,7 @@ img {
   margin-right: 40px;
 }
 .manual-btn:hover {
-  background-color: white;
+  background-color: rgb(12, 12, 12);
 }
 
 #radio1:checked ~ .first {
