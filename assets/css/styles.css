@@ -1,7 +1,6 @@
 /*========== GOOGLE FONTS ==========*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-
 /*========== VARIABLES CSS ==========*/
 :root {
   --header-height: 3.5rem;
@@ -101,11 +100,8 @@ img {
   display: none;
 }
 .title-lojas {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #002846;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-
 }
 
 .header__search {
@@ -356,7 +352,12 @@ img {
     opacity: 0;
     transition: .3s;
   }
+<<<<<<< HEAD
 
+=======
+  
+  
+>>>>>>> 1533f81246db8d1a880873d61b4158f471473c4b
   /* Navbar expanded */
   .nav:hover {
     width: var(--nav-width);

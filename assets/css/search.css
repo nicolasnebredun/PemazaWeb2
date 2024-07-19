@@ -3,6 +3,11 @@
   justify-content: left;
   align-items: center;
 }
+.lojas-acre-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 .searchInput {
   margin-top: 10px;
   margin-left: 10px;
