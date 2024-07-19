@@ -13,7 +13,8 @@
 "editor.minimap.enabled": false,
 "editor.scrollbar.vertical": "hidden",
 "editor.scrollbar.horizontal": "hidden",
-"workbench.statusBar.visible": true
+"workbench.statusBar.visible": true,
+"liveServer.settings.port": 5501
 
 
 
