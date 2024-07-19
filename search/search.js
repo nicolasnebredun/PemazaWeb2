@@ -26,9 +26,5 @@ function searchLoja() {
     }
   }
 
-  if (!found) {
-    alert("Cidade não Encontrada, Tente Novamente!");
-  }
-
   searchLoja = debounce(searchLoja, 300);
 }
