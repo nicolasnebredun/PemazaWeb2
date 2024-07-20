@@ -19,6 +19,8 @@
     border: 1.5px solid #002846;
     box-shadow: 0 1px 5px #002846, 0 1px 5px #002846;
     transition: all 400ms;
+    background-color: #fff;
+    
   }
   
   .article-card:hover {
@@ -28,9 +30,10 @@
   }
   
   .article-card img {
-    width: 340px;
-    height: 220px;
-    object-fit:fill;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 7px;
     align-items: center;
   }
   
