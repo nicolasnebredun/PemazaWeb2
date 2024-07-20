@@ -352,12 +352,6 @@ img {
     opacity: 0;
     transition: .3s;
   }
-<<<<<<< HEAD
-
-=======
-  
-  
->>>>>>> 1533f81246db8d1a880873d61b4158f471473c4b
   /* Navbar expanded */
   .nav:hover {
     width: var(--nav-width);
