@@ -38,15 +38,7 @@
 }
 
 /*========== BASE ==========*/
-footer {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  font-size: 1rem;
-  padding: 1%;
-  margin: 0 auto;
-  margin-right:-3%;
-}
+
 
 *, ::before, ::after {
   box-sizing: border-box;
