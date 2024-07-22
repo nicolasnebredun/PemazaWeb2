@@ -16,6 +16,7 @@
   color: rgb(15, 13, 13);
 
 }
+a { color: inherit; }
 /*--======CARD1======--*/
 .card {
   display: inline-block;
