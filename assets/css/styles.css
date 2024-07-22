@@ -153,7 +153,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 3rem;
+  padding-bottom: 7.5rem;
   overflow: auto;
   scrollbar-width: none; /* For mozilla */
 }
@@ -237,14 +237,18 @@ img {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.nav__insta {
+  display: flex;
+
+}
 .email-title {
   
   display: flex;
   align-items: center;
-  margin-left: 0px;
+  margin: 0px;
   font-size: 1rem;
   padding: 1%;
-  margin-left: 20%;
+  margin-left: 24%;
 }
 
 /* Dropdown */

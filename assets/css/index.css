@@ -55,9 +55,7 @@ h3 {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
+
 
 img {
   max-width: 100%;
@@ -128,6 +126,7 @@ color:#1a191b;
   color: var(--title-color);
   cursor: pointer;
 }
+a { color: inherit; }
 
 /*========== NAV ==========*/
 .nav {
@@ -147,7 +146,7 @@ color:#1a191b;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 3rem;
+  padding-bottom: 7.2rem;
   overflow: auto;
   scrollbar-width: none; /* For mozilla */
 }
