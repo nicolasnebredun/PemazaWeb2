@@ -237,18 +237,14 @@ img {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.nav__insta {
-  align-items: baseline;
-  font-size: 1.5rem;
-  }
 .email-title {
   
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin-left: 0px;
   font-size: 1rem;
-  padding: 2%;
-  margin-left: 24%;
+  padding: 1%;
+  margin-left: 20%;
 }
 
 /* Dropdown */
