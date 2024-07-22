@@ -1,0 +1,23 @@
+{
+  "name": "pemazaweb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+  "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css",
+    "build": "tsc",
+    "prepare": "rm -rf dist && npm run build",
+    "pretest": "npm run build",
+    "test": "jest",
+    "prerelease": "npm run test",
+    "release": "standard-version -a"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "vue3-carousel": "^0.3.3"
+  }
+}
